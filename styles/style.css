@@ -171,7 +171,6 @@ h1 {
   color: var(--themes-main-color);
   font-family: var(--family-header-button-label), sans-serif;
   font-size: 14px;
-
   line-height: 90%;
   font-variation-settings: "wght" var(--font-normal);
 }

@@ -5,7 +5,6 @@
     url("../fonts/PressStart2P-Regular.woff")
       format("woff2 supports variations"),
     url("../fonts/PressStart2P-Regular.woff") format("woff2-variations");
-  font-weight: 400 785;
   font-display: swap;
 }
 @font-face {
@@ -13,7 +12,7 @@
   src: local("Inter"),
     url("../fonts/Inter-Variable.woff2") format("woff2 supports variations"),
     url("../fonts/Inter-Variable.woff2") format("woff2-variations");
-  font-weight: 100 900;
+  font-weight: 400 785;
   font-style: -10deg 0deg;
   font-display: swap;
 }
