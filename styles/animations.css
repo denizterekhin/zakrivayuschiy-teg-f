@@ -28,30 +28,20 @@
 }
 
 /* Псевдоэлементы (фокусы)*/
-.card__icon-button:focus,
-.dialog__button:focus,
-.button__save:focus,
-.card__like-button:focus {
+button:focus {
   outline: none;
 }
 
-.dialog__button:focus-visible,
-.button__save:focus-visible,
-.card__like-button:focus-visible {
+.button__animations:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--themes-main-color);
   transition: box-shadow 0.5s ease-in-out;
   -webkit-text-stroke: none;
 }
-.card__icon-button,
-.dialog__button,
-.button__save,
-.card__like-button {
+button {
   cursor: pointer;
 }
 
-.dialog__button::after,
-.card__like-button::after,
-.button__save::after {
+.button__animations::after {
   content: "";
   position: absolute;
   inset: 0 0;
@@ -64,9 +54,7 @@
   mix-blend-mode: difference;
 }
 
-.dialog__button:hover::after,
-.card__like-button:hover::after,
-.button__save:hover::after {
+.button__animations:hover::after {
   transform: scaleX(1);
 }
 
