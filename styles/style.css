@@ -33,7 +33,7 @@
   min-block-size: clamp(327px, 30vw, 368px);
 }
 
-h1 {
+.header_logo {
   vertical-align: bottom;
   font-size: clamp(3.0625rem, 2.7109rem + 1.5vw, 4.0625rem);
   line-height: 100%;
